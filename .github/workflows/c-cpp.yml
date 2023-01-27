@@ -18,7 +18,7 @@ jobs:
   # uses: ConorMacBride/install-package@3e7ad059e07782ee54fa35f827df52aae0626f30
       uses: ConorMacBride/install-package@v1.1.0
       with:
-       apt: build-essential bison flex m4 texinfo libgmp-dev libmpc-dev libmpfr-dev ppl-dev libppl-dev cloog-ppl libcloog-ppl-dev
+       apt: build-essential bison flex m4 texinfo libgmp-dev libmpc-dev libmpfr-dev ppl-dev libppl-dev
     - name: configure
       run: ./configure
     - name: make
